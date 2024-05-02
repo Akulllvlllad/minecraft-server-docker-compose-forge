@@ -23,7 +23,6 @@ roles/**
 
 # Exclude all binaries
 *.bin
-*.jar
 *.tar
 *.zip
 *.gzip

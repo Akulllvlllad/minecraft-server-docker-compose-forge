@@ -88,6 +88,7 @@ services:
     volumes:
       - ./minecraft-server-data:${DATA_PATH}
       - ./plugins:/plugins:ro
+      - ./mods:/mods
     environment:
       EULA: ${MINECRAFT_SERVER_EULA}
       TYPE: ${MINECRAFT_SERVER_TYPE}
